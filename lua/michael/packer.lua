@@ -36,6 +36,13 @@ return require('packer').startup(function(use)
     requires = { { 'nvim-lua/plenary.nvim' } }
   }
 
+  -- install without yarn or npm
+  use({
+    "iamcco/markdown-preview.nvim",
+    run = function() vim.fn["mkdp#util#install"]() end,
+    ft = "markdown"
+  })
+
   -- LSP stuff
   use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
   use {
