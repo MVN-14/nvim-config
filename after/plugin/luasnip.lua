@@ -11,17 +11,19 @@ ls.add_snippets("all", {
     ls.text_node("#!/usr/bin/bash")
   })
 })
+
 ls.add_snippets("svelte", {
   ls.snippet("sv", {
     ls.text_node(
       {'<script lang="ts">',
       '</script>',
       '',
-      '<main></main>',
+      '<div></div>',
       '',
       '<style>',
       '</style>'}
     )
   })
 })
+
 
