@@ -17,6 +17,11 @@ return require('packer').startup(function(use)
   use('vim-scripts/upAndDown')
   use('windwp/nvim-ts-autotag')
 
+  -- Debug Stuff
+  use('mfussenegger/nvim-dap')
+  use('rcarriga/nvim-dap-ui')
+  use('theHamsta/nvim-dap-virtual-text')
+  use('nvim-telescope/telescope-dap.nvim')
 
   use { 'akinsho/toggleterm.nvim', tag = '*' }
 
