@@ -12,7 +12,7 @@ return {
 <style>
 </style>
 ]], {
-    i(1, "div"),
+      i(1, "div"),
       rep(1)
     })
   )
