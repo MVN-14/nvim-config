@@ -13,7 +13,7 @@ local snippet = ls.s("hg", fmt([[
 
 #endif
 ]], {
-    i(1, 'HEADER_GUARD'),
+    ls.i(1, 'HEADER_GUARD'),
     rep(1)
   }
 )) 
