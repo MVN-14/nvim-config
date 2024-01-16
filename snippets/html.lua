@@ -2,7 +2,7 @@ local ls = require('luasnip')
 local fmt = require('luasnip.extras.fmt').fmt
 
 return {
-  ls.snippet("HTML5", fmt([[
+  ls.snippet("!html", fmt([[
 <!DOCTYPE html>
 <html lang="en">
 

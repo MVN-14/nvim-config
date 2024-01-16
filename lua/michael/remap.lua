@@ -1,5 +1,6 @@
 vim.g.mapleader = " "
-vim.keymap.set("n", "<leader>m", vim.cmd.Ex)
+vim.keymap.set("n", "<C-e>", vim.cmd.NvimTreeOpen, {noremap = true})
+vim.keymap.set("n", "<leader>tc", vim.cmd.NvimTreeClose, {noremap = true})
 vim.keymap.set("n", "<leader>ff", vim.lsp.buf.format)
 vim.keymap.set("i", "<c-h>", "<c-o>db", { noremap = true })
 --vim.keymap.set("i", "<C-Del>", "<c-o>dw", { noremap = true })

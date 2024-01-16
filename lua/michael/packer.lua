@@ -16,6 +16,7 @@ return require('packer').startup(function(use)
   use('tpope/vim-commentary')
   use('vim-scripts/upAndDown')
   use('windwp/nvim-ts-autotag')
+  use('nvim-tree/nvim-tree.lua')
 
   -- Debug Stuff
   use('mfussenegger/nvim-dap')
