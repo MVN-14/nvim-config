@@ -1,0 +1,20 @@
+return {
+	cmd = { 'lua-language-server' },
+	filetypes = { 'lua' },
+	root_markers = { ".luarc.json", ".luacheckrc", ".git" },
+	settings = {
+		Lua = {
+			runtime = {
+				version = 'LuaJIT',
+			},
+			diagnostics = {
+				globals = { 'vim' }
+			},
+			workspace = {
+				library = { vim.env.VIMRUNTIME },
+				checkThirdParty = false
+			}
+		}
+	}
+}
+
