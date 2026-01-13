@@ -8,6 +8,7 @@ vim.lsp.enable('gopls')
 vim.lsp.enable('bashls')
 vim.lsp.enable('jsonls')
 vim.lsp.enable('pyright')
+vim.lsp.enable('cmake')
 
 vim.api.nvim_create_autocmd('LspAttach', {
 	callback = function(ev)
